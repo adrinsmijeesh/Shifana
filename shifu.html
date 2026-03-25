@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="shifu_style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Age Calculator</h2>
+
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob">
+
+    <div class="btn-group">
+        <button class="calculate-btn" onclick="handleCalculate()">Calculate</button>
+        <button class="reset-btn" onclick="resetForm()">Reset</button>
+    </div>
+
+    <div id="result"></div>
+</div>
+
+<!-- External JS -->
+<script src="shifu_script.js"></script>
+
+</body>
+</html>

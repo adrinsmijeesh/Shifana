@@ -1,0 +1,76 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    background: #fff;
+    padding: 25px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+/* ===== INPUT ===== */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== BUTTONS ===== */
+.btn-group {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.calculate-btn {
+    background-color: green;
+}
+
+.calculate-btn:hover {
+    background-color: darkgreen;
+}
+
+.reset-btn {
+    background-color: crimson;
+}
+
+.reset-btn:hover {
+    background-color: darkred;
+}
+
+/* ===== RESULT ===== */
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #222;
+}
